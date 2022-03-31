@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main
+{
+    display: flex;
+    background-color: #EFF1F4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 700px;
+}
+.sec{
+    background-color: white;
+    box-shadow: 0 0 5px rgb(216, 216, 216);
+    width: 400px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.sec0{
+    width: 400px;
+    height: 350px;
+}
+input{
+    padding: 15px 15px;
+    padding-right: 30px;
+    border: 1px solid #dddfe2;
+    width: 300px;
+    border-radius: 5px;
+}
+::placeholder{
+    color: #c9c9c9;
+}
+input:focus{
+    outline: none !important;
+    border-color: #719ECE;
+    box-shadow: 0 0  5px #719ECE;
+}
+.log-in{
+    background-color: #1877f2;
+    color: white;
+    border: none;
+    padding: 13px 150px 13px 150px;
+    margin-top: 15px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.log-in:hover{
+    background-color: #0764dd;
+}
+.btc-div{
+    display: flex;
+    justify-content: center;
+}
+p{
+    color: #1877f2;
+    text-align: center;
+    margin-top: 10px;
+}
+hr{
+    border: 1px solid rgb(235, 235, 235);
+    margin-top: 30px;
+}
+.account{
+    background-color: #42b72a;
+    padding: 13px 25px 13px 25px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.account:hover{
+    background-color: #34a71d;
+}
+.acc-div{
+    display: flex;
+    justify-content: center;
+   
+    align-items: center;
+}
